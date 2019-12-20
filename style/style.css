@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(199, 184, 165);
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: default;
+}
+#logo{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom: 10px;   
+}
+.menu{
+    font-family: 'Roboto Mono', monospace;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: whitesmoke;
+    float: right;
+    margin-top: 30px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    opacity: 70%;
+}
+.menu:hover{
+    opacity: 100%;
+    transition: 0.4s;
+    color: whitesmoke;
+    border-bottom: 2px solid whitesmoke;
+}
+#glowna{
+    margin-right: 50px;
+}
+nav{
+    background-color:rgba(255, 255, 255, 0.3);
+}
+header{
+    background-color: whitesmoke;
+    background-image: url(../img/background2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.lazienki{
+    padding-top: 50px;
+    text-align: center;
+}
+#lazienki{
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#lazienki:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+.szafy{
+    margin-top: 40px;
+    text-align: center;
+}
+#szafy{
+    display: inline-block;
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#szafy:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+}
+.kuchnia{
+    margin-top: 40px;
+    text-align: center;
+}
+#kuchnia{
+    display: inline-block;
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#kuchnia:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+.lozka{
+    margin-top: 30px;
+    text-align: center;
+}
+#lozka{
+    display: inline-block;
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#lozka:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+.biurka{
+    margin-top: 30px;
+    text-align: center;
+}
+#biurka{
+    display: inline-block;
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#biurka:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+.inne{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#inne{
+    display: inline-block;
+    text-decoration: none;
+    color: #646364;
+    font-size: 3vw;
+    background-color: whitesmoke;
+    padding: 10px 20px;  
+    border: 5px solid #646364;
+    letter-spacing: 5px;
+}
+#inne:hover{
+    background-color: #646364;
+    color: rgba(199, 184, 165, 1);
+    border: 5px solid rgba(199, 184, 165, 1) ;
+    transition: 0.3s;
+}
+footer p{
+    background-color: #727272;
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+@media(max-width:1920px){
+    #logo{
+        display: inline-block;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .menu{
+        font-family: 'Roboto Mono', monospace;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: whitesmoke;
+        float: right;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        letter-spacing: 5px;
+        opacity: 70%;
+    }
+    .menu:hover{
+        opacity: 100%;
+        transition: 0.4s;
+        color: whitesmoke;
+     
+    }
+    #glowna{
+        margin-right: 50px;
+    }
+    nav{
+        background-color:rgba(255, 255, 255, 0.3);
+    }
+    header{
+        background-image: url(../img/background2.jpg);
+        background-position: center center;
+        background-size: cover;
+    }
+    .lazienki{
+        padding-top: 50px;
+        text-align: center;
+    }
+    #lazienki{
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #lazienki:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    .szafy{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #szafy{
+        display: inline-block;
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #szafy:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    .kuchnia{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #kuchnia:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    #kuchnia{
+        display: inline-block;
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    .lozka{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #lozka{
+        display: inline-block;
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #lozka:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    .biurka{
+        margin-top: 30px;
+        text-align: center;
+    }
+    #biurka{
+        display: inline-block;
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #biurka:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    .inne{
+        margin-top: 30px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    #inne{
+        display: inline-block;
+        text-decoration: none;
+        color: #646364;
+        font-size: 3vw;
+        background-color: whitesmoke;
+        padding: 10px 20px;  
+        border: 5px solid #646364;
+        letter-spacing: 5px;
+    }
+    #inne:hover{
+        background-color: #646364;
+        color: rgba(199, 184, 165, 1);
+        border: 5px solid rgba(199, 184, 165, 1) ;
+        transition: 0.3s;
+    }
+    footer p{
+        background-color: #727272;
+        font-size: 20px;
+        color: whitesmoke;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+@media(max-width:1024px){
+    #kuchnia{
+        font-size: 5vw;
+    }
+    #szafy{
+        font-size: 5vw;
+    }
+    #lazienki{
+        font-size: 5vw;
+    }
+    #lozka{
+        font-size: 5vw;
+    }
+    #biurka{
+        font-size: 5vw;
+    }
+    #inne{
+        font-size: 5vw;
+    }
+    footer{
+        font-size: 2vw;
+    }
+}
+@media(max-width:768px){
+    #kuchnia{
+        font-size: 7vw;
+    }
+    #szafy{
+        font-size: 7vw;
+    }
+    #lazienki{
+        font-size: 7vw;
+    }
+    #lozka{
+        font-size: 7vw;
+    }
+    #biurka{
+        font-size: 7vw;
+    }
+    #inne{
+        font-size: 7vw;
+    }
+    footer p{
+        font-size: 2.5vw;
+    }
+}
+@media(max-width:500px){
+    .menu{
+        margin-right: 10px;
+        font-size: 25px;
+    }
+    #glowna{
+        margin-right: 20px;
+    }
+    #kuchnia{
+        font-size: 8vw;
+    }
+    #szafy{
+        font-size: 8vw;
+    }
+    #lazienki{
+        font-size: 8vw;
+    }
+    #lozka{
+        font-size: 8vw;
+    }
+    #biurka{
+        font-size: 8vw;
+    }
+    #inne{
+        font-size: 8vw;
+    }
+
+}
+@media(max-width:414px){
+    .menu{
+        margin-right: 10px;
+        font-size: 22px;
+    }
+    #glowna{
+        margin-right: 15px;
+    }
+    footer p{
+    font-size: 3vw;
+    }
+@media(max-width: 375px){
+    .menu{
+        margin-right: 10px;
+        font-size: 19px;
+    }
+    #glowna{
+        margin-right: 12px;
+    }  
+    footer p{
+    font-size: 3.5vw;
+    }
+@media(max-width: 345px){
+    .menu{
+        margin-right: 8px;
+        font-size: 15px;
+    }
+    #glowna{
+        margin-right: 10px;
+    }
+    footer p{
+        font-size: 4vw;
+    }
+}
